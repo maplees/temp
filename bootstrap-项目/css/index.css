@@ -1,0 +1,212 @@
+
+
+/************************ 通用样式 ************************/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/************************ 通用样式 ************************/
+
+
+/************************ 头部样式 ************************/
+#lk-header{
+    background-color: #fff;
+}
+
+#lk-header .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+#lk-header .top-bar .container .row>div+div{
+    border-left: 1px solid #e0e0e0;
+    /* height: 100px; */
+}
+#lk-header .top-bar .container .row .top-bar-1 a{
+    position: relative;
+
+}
+#lk-header .top-bar .container .row .top-bar-1 a img{
+    display: none;
+    /* display: flex; */
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -10px;
+    z-index: 6000;
+
+}
+#lk-header .top-bar .container .row .top-bar-1 a:hover img{
+    display: block;
+   
+
+}
+#lk-header .nvabar-wd{
+
+}
+
+#lk-header .nvabar-wdimg {
+    /* max-width: 90px; */
+    height: 70px;
+}
+#lk-header .nvabar-wd .navbar-nav  a{
+   height: 70px;
+   line-height: 55px;
+   transition: all 0s;
+}
+#lk-header .nvabar-wd .navbar-nav  li a:hover
+{
+    border-bottom: 2px solid #0AB4F7;
+}
+/************************ 头部样式 ************************/
+
+
+#lk-carousel img{
+    max-height: 400px;
+}
+
+
+/************************ 关于我们 ************************/
+
+#lk-about{
+    padding: 20px 0;
+}
+
+#lk-about .title{
+    padding-bottom: 20px;
+}
+#lk-about .row p{
+    /* line-height: 30px; */
+}
+/************************ 关于我们 ************************/
+
+
+/************************ 产品特色 ************************/
+
+#lk-product{
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+
+#lk-product .nav{
+    font-size: 18px;
+}
+#lk-product .nav button{
+    color: #999;
+    border: none;
+}
+
+#lk-product .nav li button.active{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #0AB4F7;
+    transition: all 0s;
+    color: #000;
+}
+#lk-product .pd-left-img{
+    max-width: 140px;
+}
+
+#lk-product .tab-content{
+    padding-top: 20px;
+}
+#lk-product .pd-left{
+    padding: 40px 0;
+}
+.pd-one-1{
+    margin: 15px 0;
+}
+#lk-product #pd-two-1{
+    padding: 100px 0;
+}
+#lk-product #pd-two-1 h1{
+    margin-bottom: 15px;
+} 
+
+/************************ 产品特色 ************************/
+
+/************************ 热门课程 ************************/
+#lk-hot .lesson{
+    padding: 15px 10px;
+}
+#lk-hot .lesson .hot-1{
+    width: 20%;
+}
+#lk-hot .lesson .hot-2{
+    
+    width: 60%;
+    text-align: left;
+    margin-bottom: 0;
+}
+#lk-hot .lesson .hot-3{
+    width: 20%;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/************************ 热门课程 ************************/
+
+
+
+/************************ 友情链接************************/
+
+#lk-link .logos{
+    text-align: center;
+}
+
+#lk-link .logos li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+#lk-link .logos img{
+    max-width: 100px;
+}
+
+/************************ 友情链接************************/
+
+
+/************************ 尾部************************/
+#lk-footer{
+    width: 100%;
+    height: 200px;
+    background: url("../img/ft_bg.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+#lk-footer .foot-1, .foot-2{
+    padding: 10px;
+    border-right: 1px solid #666;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lk-footer .foot-1 a{
+    line-height: 40px;
+    color: #fff;
+}
+#lk-footer .foot-3 a{
+    margin-right: 15px;
+}
+#lk-footer .foot-3{
+    padding: 10px 50px;
+    
+    height: 180px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
